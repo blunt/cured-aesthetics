@@ -1,5 +1,12 @@
 [
     {
+        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "offline-plugin-app-shell-fallback.json",
+        "path": "/offline-plugin-app-shell-fallback/"
+    },
+    {
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -24,8 +31,8 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "pax-3.json",
-        "path": "/pax-3/"
+        "jsonName": "dipper.json",
+        "path": "/dipper/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
@@ -38,8 +45,8 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "voong.json",
-        "path": "/voong/"
+        "jsonName": "inda.json",
+        "path": "/inda/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
@@ -52,22 +59,22 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "inda.json",
-        "path": "/inda/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "dipper.json",
-        "path": "/dipper/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "levo.json",
         "path": "/levo/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "pax-3.json",
+        "path": "/pax-3/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "voong.json",
+        "path": "/voong/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
@@ -82,13 +89,6 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "water-pipe.json",
         "path": "/water-pipe/"
-    },
-    {
-        "componentChunkName": "component---cache-dev-404-page-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "dev-404-page.json",
-        "path": "/dev-404-page/"
     },
     {
         "componentChunkName": "component---src-pages-index-js",
