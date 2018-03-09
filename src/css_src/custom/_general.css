@@ -1,0 +1,77 @@
+@font-face {
+    /* font-family:"Optima LT W01 Roman"; */
+    font-family:"Optima";
+    font-weight: 400;
+    src:url("/fonts/faef1464-e833-43ac-a2ee-7a4f5f3ab909.eot?#iefix");
+    src:url("/fonts/faef1464-e833-43ac-a2ee-7a4f5f3ab909.eot?#iefix") format("eot"),url("/fonts/776a385c-3d8b-4237-8d14-382015d9ff12.woff2") format("woff2"),url("/fonts/b72e728e-eac1-4261-ac86-579fa6ae4a0b.woff") format("woff"),url("/fonts/7d64c37c-83dc-4450-8781-17b619b16935.ttf") format("truetype"),url("/fonts/77b722e6-5ee7-40fe-aff2-0225df92206d.svg#77b722e6-5ee7-40fe-aff2-0225df92206d") format("svg");
+}
+
+@font-face {
+    /* font-family:"Optima LT W01 Bold"; */
+    font-family:"Optima";
+    font-weight: 600;
+    src:url("/fonts/e1cc0e94-8b24-4f52-8e15-8399b02ca60e.eot?#iefix");
+    src:url("/fonts/e1cc0e94-8b24-4f52-8e15-8399b02ca60e.eot?#iefix") format("eot"),url("/fonts/f7b586da-68e1-406c-87f7-1c45040e49f9.woff2") format("woff2"),url("/fonts/7b16da83-d4bf-4808-b6f7-fd915dd9b61f.woff") format("woff"),url("/fonts/887409a8-7285-46ea-ba85-893160ec2888.ttf") format("truetype"),url("/fonts/4c70d5bb-37b9-48b5-a0e8-edfa5819db39.svg#4c70d5bb-37b9-48b5-a0e8-edfa5819db39") format("svg");
+}
+
+
+html {
+    background: #262627;
+}
+
+body, nav {
+    /* background: #d0ede3; */
+    background: #EBE2D5;
+}
+
+::selection {
+    color: #EBE2D5; 
+    background: #262627;
+}
+
+nav {
+    border-top: 5px solid #262627;
+}
+
+.outline-text {
+    -webkit-text-stroke-width: .02em;
+    -webkit-text-stroke-color: #262627;
+    -webkit-text-fill-color: transparent;
+}
+
+.outline-text:hover, .outline-fill {
+    -webkit-text-fill-color: #262627;
+}
+
+.left-margin {
+    padding-left: 2.5px;
+}
+
+.left-auto {
+    margin-left: auto;
+}
+
+a {
+    border-bottom: 1px solid;
+    padding-bottom: .2rem;
+}
+
+a:hover {
+    text-decoration: none;
+    border-bottom-color: transparent;
+}
+
+.underline {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    padding-bottom: .2rem;
+}
+
+a:hover .underline {
+    border-bottom-color: transparent;
+}
+
+.button:hover {
+    border-bottom-color: #262627;
+    color: #EBE2D5;
+}

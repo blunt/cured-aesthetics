@@ -1,0 +1,4689 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/maximsiebert/Documents/Projects/weed-stuff/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "updatedAt": 1520636657098,
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/maximsiebert/Documents/Projects/weed-stuff/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a98349ed19ca403450ec9a4c94c50b2d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "41d6c2946afd05c2c2ab1706600507df",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5b11c11aba95c6686549b7768093d386",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "903f6a8135b0611d86770e6e1db7e237",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "562c3eb0f0760367e4cee7c2363bb676",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f7b2fa0bf4e17cb97d91673eaf9bbfaa",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "814cb342d21d91bb2e7028332a3fadd3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.21",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+        "name": "pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.21",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aacda4bd88257d61c6123b10277e6988",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.33",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.47",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 590,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "pathPrefix": ""
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-responsive-iframe",
+            "id": "Plugin gatsby-remark-responsive-iframe",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "1.4.17",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": "margin-bottom: 1.0725rem"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-prismjs",
+            "id": "Plugin gatsby-remark-prismjs",
+            "name": "gatsby-remark-prismjs",
+            "version": "1.2.15",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-copy-linked-files",
+            "id": "Plugin gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "1.5.27",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-smartypants",
+            "id": "Plugin gatsby-remark-smartypants",
+            "name": "gatsby-remark-smartypants",
+            "version": "1.4.11",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-smartypants"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.33",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "00ee1d7424f401bd88c1a4e775af41a3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.47",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 590,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "pathPrefix": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.47",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.31"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "61342c6a2f009aae2f534a5908fb9d4c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-responsive-iframe": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-responsive-iframe",
+      "id": "Plugin gatsby-remark-responsive-iframe",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "1.4.17",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": "margin-bottom: 1.0725rem"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "1.4.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "807feb4e5ed682ae7d56d17b42653fb6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-prismjs": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-prismjs",
+      "id": "Plugin gatsby-remark-prismjs",
+      "name": "gatsby-remark-prismjs",
+      "version": "1.2.15",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "1.2.15",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "0.0.2"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.11.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.3"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6b626145ddde977783f185807593e97b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-copy-linked-files",
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "1.5.27",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "1.5.27",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.6.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e08255492db57bcd3c7d2cf69d800061",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-smartypants": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-smartypants",
+      "id": "Plugin gatsby-remark-smartypants",
+      "name": "gatsby-remark-smartypants",
+      "version": "1.4.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-remark-smartypants",
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "1.4.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "retext",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "727907d69036e8fb0e2327cb2ab55273",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.20",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.6.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8261c4199b206a44aff940d2208f9aae",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.31",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.31",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.19.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cba1c365ec28d8c24f6ebc6b7239f9c4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.19",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.19",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a2b6728f1b3a3e878ac0c5cb80ad5207",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-feed": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-plugin-feed",
+      "id": "Plugin gatsby-plugin-feed",
+      "name": "gatsby-plugin-feed",
+      "version": "1.3.18",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-plugin-feed",
+      "packageJson": {
+        "name": "gatsby-plugin-feed",
+        "description": "Creates an RSS feed for your Gatsby site.",
+        "version": "1.3.18",
+        "main": "index.js",
+        "keywords": [
+          "atom",
+          "feed",
+          "gatsby",
+          "gatsby-plugin",
+          "rss"
+        ],
+        "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "lodash.merge",
+            "version": "^4.6.0"
+          },
+          {
+            "name": "pify",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "rss",
+            "version": "^1.2.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6b073585c7c46f804fc904d8acbd688b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "1.0.14",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "1.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "sw-precache",
+            "version": "^5.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b134382a58cce58187cc39ae2ffcf3b7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3561ea77cb59da51cda9106c42b1db72",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.14",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3a6d8d8c577216f3cae8a7f6b3ff809d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/maximsiebert/Documents/Projects/weed-stuff",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "889cb70493aade2541550cfa3690564f",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maximsiebert/Documents/Projects/weed-stuff",
+      "packageJson": {
+        "name": "gatsby-starter-blog",
+        "description": "Starter Gatsby Blog",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.204"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^1.0.38"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.37"
+          },
+          {
+            "name": "gatsby-plugin-feed",
+            "version": "^1.3.18"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.19"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^1.0.14"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.8"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.31"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^1.7.14"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^1.5.27"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.47"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^1.2.15"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "^1.4.17"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "^1.4.11"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.21"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.33"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.20"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.5"
+          },
+          {
+            "name": "react-responsive-grid",
+            "version": "^0.3.4"
+          },
+          {
+            "name": "tachyons-components",
+            "version": "^1.0.0-1"
+          },
+          {
+            "name": "typeface-merriweather",
+            "version": "0.0.43"
+          },
+          {
+            "name": "typeface-montserrat",
+            "version": "0.0.43"
+          },
+          {
+            "name": "typography-theme-wordpress-2016",
+            "version": "^0.15.10"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "eslint",
+            "version": "^4.18.1"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.7.0"
+          },
+          {
+            "name": "gh-pages",
+            "version": "^1.1.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.10.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b61cedfdb4b6cd675e9fe7bab68d83c7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "cured aesthetics",
+        "author": "Maxim Siebert",
+        "description": "A starter blog demonstrating what Gatsby can do.",
+        "siteUrl": "https://gatsbyjs.github.io/gatsby-starter-blog/"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "/gatsby-starter-blog",
+      "polyfill": true,
+      "buildTime": "2018-03-09T23:04:12.781Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7968d13f4685f743d463a56b52ddc96e",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "74d24466b33822f467de6fc872c2b6bb",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 512,
+      "prettySize": "512 B",
+      "modifiedTime": "2018-02-23T23:05:14.581Z",
+      "accessTime": "2018-03-09T23:04:16.596Z",
+      "changeTime": "2018-02-23T23:05:14.581Z",
+      "birthTime": "2018-02-21T18:47:05.552Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 16,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8594894581,
+      "blocks": 0,
+      "atimeMs": 1520636656596.2578,
+      "mtimeMs": 1519427114581.151,
+      "ctimeMs": 1519427114581.151,
+      "birthtimeMs": 1519238825552.341,
+      "atime": "2018-03-09T23:04:16.596Z",
+      "mtime": "2018-02-23T23:05:14.581Z",
+      "ctime": "2018-02-23T23:05:14.581Z",
+      "birthtime": "2018-02-21T18:47:05.552Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ca401c16984a5d788cb02a22cfe02440",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler",
+      "relativePath": "bubbler",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-02-22T04:26:59.647Z",
+      "accessTime": "2018-03-09T23:04:16.601Z",
+      "changeTime": "2018-02-22T04:26:59.647Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+      "base": "bubbler",
+      "ext": "",
+      "name": "bubbler",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8594894588,
+      "blocks": 0,
+      "atimeMs": 1520636656600.9033,
+      "mtimeMs": 1519273619646.9565,
+      "ctimeMs": 1519273619646.9565,
+      "birthtimeMs": 1519238825555.503,
+      "atime": "2018-03-09T23:04:16.601Z",
+      "mtime": "2018-02-22T04:26:59.647Z",
+      "ctime": "2018-02-22T04:26:59.647Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "573db7f6b051b9c6532c7201afa3dfc8",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona",
+      "relativePath": "corona",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-02-24T02:22:53.477Z",
+      "accessTime": "2018-03-09T23:04:16.601Z",
+      "changeTime": "2018-02-24T02:22:53.477Z",
+      "birthTime": "2018-02-21T18:47:05.555Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+      "base": "corona",
+      "ext": "",
+      "name": "corona",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595249610,
+      "blocks": 0,
+      "atimeMs": 1520636656600.8906,
+      "mtimeMs": 1519438973476.9763,
+      "ctimeMs": 1519438973476.9763,
+      "birthtimeMs": 1519238825555.0232,
+      "atime": "2018-03-09T23:04:16.601Z",
+      "mtime": "2018-02-24T02:22:53.477Z",
+      "ctime": "2018-02-24T02:22:53.477Z",
+      "birthtime": "2018-02-21T18:47:05.555Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6059494c561b2a0b5be5780fb0f7ab56",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta",
+      "relativePath": "land-yacht-terra-cotta",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-02-22T00:52:54.463Z",
+      "accessTime": "2018-03-09T23:04:16.601Z",
+      "changeTime": "2018-02-22T00:52:54.463Z",
+      "birthTime": "2018-02-21T18:47:05.552Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+      "base": "land-yacht-terra-cotta",
+      "ext": "",
+      "name": "land-yacht-terra-cotta",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8594894582,
+      "blocks": 0,
+      "atimeMs": 1520636656600.9546,
+      "mtimeMs": 1519260774462.9075,
+      "ctimeMs": 1519260774462.9075,
+      "birthtimeMs": 1519238825552.393,
+      "atime": "2018-03-09T23:04:16.601Z",
+      "mtime": "2018-02-22T00:52:54.463Z",
+      "ctime": "2018-02-22T00:52:54.463Z",
+      "birthtime": "2018-02-21T18:47:05.552Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3 absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cca28f5d1087832ccba0a977eed07f6d",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3",
+      "relativePath": "pax-3",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-02-24T02:48:36.053Z",
+      "accessTime": "2018-03-09T23:04:16.601Z",
+      "changeTime": "2018-02-24T02:48:36.053Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+      "base": "pax-3",
+      "ext": "",
+      "name": "pax-3",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595249612,
+      "blocks": 0,
+      "atimeMs": 1520636656600.9797,
+      "mtimeMs": 1519440516052.5156,
+      "ctimeMs": 1519440516052.5156,
+      "birthtimeMs": 1519238825555.503,
+      "atime": "2018-03-09T23:04:16.601Z",
+      "mtime": "2018-02-24T02:48:36.053Z",
+      "ctime": "2018-02-24T02:48:36.053Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f7511ec34545a80bb98550a9f207ae60",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass",
+      "relativePath": "stundenglass",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-02-22T03:16:32.819Z",
+      "accessTime": "2018-03-09T23:04:16.601Z",
+      "changeTime": "2018-02-22T03:16:32.819Z",
+      "birthTime": "2018-02-21T18:47:05.555Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+      "base": "stundenglass",
+      "ext": "",
+      "name": "stundenglass",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8594894585,
+      "blocks": 0,
+      "atimeMs": 1520636656600.993,
+      "mtimeMs": 1519269392819.3303,
+      "ctimeMs": 1519269392819.3303,
+      "birthtimeMs": 1519238825555.0232,
+      "atime": "2018-03-09T23:04:16.601Z",
+      "mtime": "2018-02-22T03:16:32.819Z",
+      "ctime": "2018-02-22T03:16:32.819Z",
+      "birthtime": "2018-02-21T18:47:05.555Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "84bb23273c5aebc7a955dc84b5a988f8",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe",
+      "relativePath": "water-pipe",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-02-22T04:31:26.962Z",
+      "accessTime": "2018-03-09T23:04:16.601Z",
+      "changeTime": "2018-02-22T04:31:26.962Z",
+      "birthTime": "2018-02-21T18:47:05.552Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+      "base": "water-pipe",
+      "ext": "",
+      "name": "water-pipe",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595249611,
+      "blocks": 0,
+      "atimeMs": 1520636656601.0178,
+      "mtimeMs": 1519273886961.8762,
+      "ctimeMs": 1519273886961.8762,
+      "birthtimeMs": 1519238825552.393,
+      "atime": "2018-03-09T23:04:16.601Z",
+      "mtime": "2018-02-22T04:31:26.962Z",
+      "ctime": "2018-02-22T04:31:26.962Z",
+      "birthtime": "2018-02-21T18:47:05.552Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/index.md absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/index.md absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4a3c0f7639dd151c6f13a58fa7610ae6",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/index.md",
+      "relativePath": "bubbler/index.md",
+      "extension": "md",
+      "size": 366,
+      "prettySize": "366 B",
+      "modifiedTime": "2018-03-02T23:29:41.119Z",
+      "accessTime": "2018-03-02T23:29:41.119Z",
+      "changeTime": "2018-03-02T23:29:41.119Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "bubbler",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8594894589,
+      "blocks": 8,
+      "atimeMs": 1520033381118.9714,
+      "mtimeMs": 1520033381119.2495,
+      "ctimeMs": 1520033381119.2495,
+      "birthtimeMs": 1519238825555.55,
+      "atime": "2018-03-02T23:29:41.119Z",
+      "mtime": "2018-03-02T23:29:41.119Z",
+      "ctime": "2018-03-02T23:29:41.119Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/index.js absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4c48e6a83d0d518bbbd12727d7b484b3",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 3142,
+      "prettySize": "3.14 kB",
+      "modifiedTime": "2018-03-03T20:59:23.919Z",
+      "accessTime": "2018-03-03T20:59:23.919Z",
+      "changeTime": "2018-03-03T20:59:23.919Z",
+      "birthTime": "2018-02-21T18:47:05.555Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8594894587,
+      "blocks": 8,
+      "atimeMs": 1520110763918.5322,
+      "mtimeMs": 1520110763918.8547,
+      "ctimeMs": 1520110763918.8547,
+      "birthtimeMs": 1519238825555.3386,
+      "atime": "2018-03-03T20:59:23.919Z",
+      "mtime": "2018-03-03T20:59:23.919Z",
+      "ctime": "2018-03-03T20:59:23.919Z",
+      "birthtime": "2018-02-21T18:47:05.555Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/.DS_Store absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7f987c594ccd1581de149f5b66afda8b",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/.DS_Store",
+      "relativePath": ".DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-02-24T08:01:24.055Z",
+      "accessTime": "2018-02-24T03:03:30.248Z",
+      "changeTime": "2018-02-24T08:01:24.055Z",
+      "birthTime": "2018-02-22T00:45:47.940Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595192923,
+      "blocks": 16,
+      "atimeMs": 1519441410248.2007,
+      "mtimeMs": 1519459284055.0295,
+      "ctimeMs": 1519459284055.0295,
+      "birthtimeMs": 1519260347940.4163,
+      "atime": "2018-02-24T03:03:30.248Z",
+      "mtime": "2018-02-24T08:01:24.055Z",
+      "ctime": "2018-02-24T08:01:24.055Z",
+      "birthtime": "2018-02-22T00:45:47.940Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/.DS_Store absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "194577a7e20bdcc7afbb718f502c134c",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/.DS_Store",
+      "relativePath": "corona/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-02-22T03:14:31.085Z",
+      "accessTime": "2018-02-22T18:03:54.885Z",
+      "changeTime": "2018-02-22T03:14:31.085Z",
+      "birthTime": "2018-02-22T03:14:31.084Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "corona",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595255145,
+      "blocks": 16,
+      "atimeMs": 1519322634884.77,
+      "mtimeMs": 1519269271084.8574,
+      "ctimeMs": 1519269271084.8574,
+      "birthtimeMs": 1519269271084.3682,
+      "atime": "2018-02-22T18:03:54.885Z",
+      "mtime": "2018-02-22T03:14:31.085Z",
+      "ctime": "2018-02-22T03:14:31.085Z",
+      "birthtime": "2018-02-22T03:14:31.084Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/.DS_Store absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "194577a7e20bdcc7afbb718f502c134c",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/.DS_Store",
+      "relativePath": "land-yacht-terra-cotta/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-02-22T00:52:54.463Z",
+      "accessTime": "2018-02-22T18:03:54.885Z",
+      "changeTime": "2018-02-22T00:52:54.463Z",
+      "birthTime": "2018-02-22T00:52:54.463Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "land-yacht-terra-cotta",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595197024,
+      "blocks": 16,
+      "atimeMs": 1519322634884.9692,
+      "mtimeMs": 1519260774463.416,
+      "ctimeMs": 1519260774463.416,
+      "birthtimeMs": 1519260774462.8933,
+      "atime": "2018-02-22T18:03:54.885Z",
+      "mtime": "2018-02-22T00:52:54.463Z",
+      "ctime": "2018-02-22T00:52:54.463Z",
+      "birthtime": "2018-02-22T00:52:54.463Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/bubbler.jpg absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/bubbler.jpg absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/bubbler.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3ca6c67aff129518cc3363dbddc26294",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/bubbler.jpg",
+      "relativePath": "bubbler/bubbler.jpg",
+      "extension": "jpg",
+      "size": 41777,
+      "prettySize": "41.8 kB",
+      "modifiedTime": "2018-02-22T04:26:52.713Z",
+      "accessTime": "2018-02-22T20:04:02.163Z",
+      "changeTime": "2018-02-22T04:26:59.680Z",
+      "birthTime": "2018-02-22T04:26:52.713Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler",
+      "base": "bubbler.jpg",
+      "ext": ".jpg",
+      "name": "bubbler",
+      "relativeDirectory": "bubbler",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595286736,
+      "blocks": 88,
+      "atimeMs": 1519329842162.6223,
+      "mtimeMs": 1519273612713.3918,
+      "ctimeMs": 1519273619680.451,
+      "birthtimeMs": 1519273612713.094,
+      "atime": "2018-02-22T20:04:02.163Z",
+      "mtime": "2018-02-22T04:26:52.713Z",
+      "ctime": "2018-02-22T04:26:59.680Z",
+      "birthtime": "2018-02-22T04:26:52.713Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/index.md absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/index.md absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "298c16b4678e7e45a883c4ad43ad6c6d",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/index.md",
+      "relativePath": "corona/index.md",
+      "extension": "md",
+      "size": 427,
+      "prettySize": "427 B",
+      "modifiedTime": "2018-03-02T23:24:10.404Z",
+      "accessTime": "2018-03-02T23:24:10.404Z",
+      "changeTime": "2018-03-02T23:24:10.404Z",
+      "birthTime": "2018-02-21T18:47:05.555Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "corona",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595249613,
+      "blocks": 8,
+      "atimeMs": 1520033050403.7864,
+      "mtimeMs": 1520033050404.3562,
+      "ctimeMs": 1520033050404.3562,
+      "birthtimeMs": 1519238825555.0876,
+      "atime": "2018-03-02T23:24:10.404Z",
+      "mtime": "2018-03-02T23:24:10.404Z",
+      "ctime": "2018-03-02T23:24:10.404Z",
+      "birthtime": "2018-02-21T18:47:05.555Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/index.md absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/index.md absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dd0294188e77805590421fccf58f070b",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/index.md",
+      "relativePath": "land-yacht-terra-cotta/index.md",
+      "extension": "md",
+      "size": 381,
+      "prettySize": "381 B",
+      "modifiedTime": "2018-03-02T23:29:19.099Z",
+      "accessTime": "2018-03-02T23:29:19.098Z",
+      "changeTime": "2018-03-02T23:29:19.099Z",
+      "birthTime": "2018-02-21T18:47:05.552Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "land-yacht-terra-cotta",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8594894583,
+      "blocks": 8,
+      "atimeMs": 1520033359098.3596,
+      "mtimeMs": 1520033359098.604,
+      "ctimeMs": 1520033359098.604,
+      "birthtimeMs": 1519238825552.4417,
+      "atime": "2018-03-02T23:29:19.098Z",
+      "mtime": "2018-03-02T23:29:19.099Z",
+      "ctime": "2018-03-02T23:29:19.099Z",
+      "birthtime": "2018-02-21T18:47:05.552Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/index.md absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/index.md absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6626d7ce9709bcfa59e1e0e87eefd951",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/index.md",
+      "relativePath": "pax-3/index.md",
+      "extension": "md",
+      "size": 352,
+      "prettySize": "352 B",
+      "modifiedTime": "2018-03-02T23:29:04.579Z",
+      "accessTime": "2018-03-02T23:29:04.579Z",
+      "changeTime": "2018-03-02T23:29:04.579Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "pax-3",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595249622,
+      "blocks": 8,
+      "atimeMs": 1520033344578.729,
+      "mtimeMs": 1520033344579.06,
+      "ctimeMs": 1520033344579.06,
+      "birthtimeMs": 1519238825555.55,
+      "atime": "2018-03-02T23:29:04.579Z",
+      "mtime": "2018-03-02T23:29:04.579Z",
+      "ctime": "2018-03-02T23:29:04.579Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/.DS_Store absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "194577a7e20bdcc7afbb718f502c134c",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/.DS_Store",
+      "relativePath": "stundenglass/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-02-22T03:16:32.820Z",
+      "accessTime": "2018-02-22T18:03:54.885Z",
+      "changeTime": "2018-02-22T03:16:32.820Z",
+      "birthTime": "2018-02-22T03:16:32.819Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "stundenglass",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595256480,
+      "blocks": 16,
+      "atimeMs": 1519322634884.8704,
+      "mtimeMs": 1519269392819.7937,
+      "ctimeMs": 1519269392819.7937,
+      "birthtimeMs": 1519269392819.313,
+      "atime": "2018-02-22T18:03:54.885Z",
+      "mtime": "2018-02-22T03:16:32.820Z",
+      "ctime": "2018-02-22T03:16:32.820Z",
+      "birthtime": "2018-02-22T03:16:32.819Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/index.md absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/index.md absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0bd8d7197f27179a5fc6b41b9e2eb1b5",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/index.md",
+      "relativePath": "stundenglass/index.md",
+      "extension": "md",
+      "size": 374,
+      "prettySize": "374 B",
+      "modifiedTime": "2018-03-02T23:28:48.955Z",
+      "accessTime": "2018-03-02T23:28:48.954Z",
+      "changeTime": "2018-03-02T23:28:48.955Z",
+      "birthTime": "2018-02-21T18:47:05.555Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "stundenglass",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8594894586,
+      "blocks": 8,
+      "atimeMs": 1520033328954.2803,
+      "mtimeMs": 1520033328954.5615,
+      "ctimeMs": 1520033328954.5615,
+      "birthtimeMs": 1519238825555.0876,
+      "atime": "2018-03-02T23:28:48.954Z",
+      "mtime": "2018-03-02T23:28:48.955Z",
+      "ctime": "2018-03-02T23:28:48.955Z",
+      "birthtime": "2018-02-21T18:47:05.555Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/.DS_Store absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "194577a7e20bdcc7afbb718f502c134c",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/.DS_Store",
+      "relativePath": "water-pipe/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-02-22T00:52:54.463Z",
+      "accessTime": "2018-02-22T18:03:54.885Z",
+      "changeTime": "2018-02-22T03:05:31.723Z",
+      "birthTime": "2018-02-22T00:52:54.463Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "water-pipe",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595249619,
+      "blocks": 16,
+      "atimeMs": 1519322634884.9214,
+      "mtimeMs": 1519260774463.416,
+      "ctimeMs": 1519268731722.5156,
+      "birthtimeMs": 1519260774462.8933,
+      "atime": "2018-02-22T18:03:54.885Z",
+      "mtime": "2018-02-22T00:52:54.463Z",
+      "ctime": "2018-02-22T03:05:31.723Z",
+      "birthtime": "2018-02-22T00:52:54.463Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/index.md absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/index.md absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d66fb72ea3dd44f71be45b084e5ba8b5",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/index.md",
+      "relativePath": "water-pipe/index.md",
+      "extension": "md",
+      "size": 373,
+      "prettySize": "373 B",
+      "modifiedTime": "2018-03-02T23:29:10.177Z",
+      "accessTime": "2018-03-02T23:29:10.177Z",
+      "changeTime": "2018-03-02T23:29:10.177Z",
+      "birthTime": "2018-02-21T18:47:05.552Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "water-pipe",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595249621,
+      "blocks": 8,
+      "atimeMs": 1520033350176.846,
+      "mtimeMs": 1520033350177.1758,
+      "ctimeMs": 1520033350177.1758,
+      "birthtimeMs": 1519238825552.4417,
+      "atime": "2018-03-02T23:29:10.177Z",
+      "mtime": "2018-03-02T23:29:10.177Z",
+      "ctime": "2018-03-02T23:29:10.177Z",
+      "birthtime": "2018-02-21T18:47:05.552Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/water-pipe.jpg absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/water-pipe.jpg absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/water-pipe.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c15d2ff01ce2b1418b5af9f81ee24dac",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/water-pipe.jpg",
+      "relativePath": "water-pipe/water-pipe.jpg",
+      "extension": "jpg",
+      "size": 47368,
+      "prettySize": "47.4 kB",
+      "modifiedTime": "2018-02-22T04:31:16.619Z",
+      "accessTime": "2018-02-22T20:04:02.163Z",
+      "changeTime": "2018-02-22T04:31:26.991Z",
+      "birthTime": "2018-02-22T04:31:16.619Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe",
+      "base": "water-pipe.jpg",
+      "ext": ".jpg",
+      "name": "water-pipe",
+      "relativeDirectory": "water-pipe",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595289449,
+      "blocks": 96,
+      "atimeMs": 1519329842163.1865,
+      "mtimeMs": 1519273876619.1567,
+      "ctimeMs": 1519273886990.9229,
+      "birthtimeMs": 1519273876618.8208,
+      "atime": "2018-02-22T20:04:02.163Z",
+      "mtime": "2018-02-22T04:31:16.619Z",
+      "ctime": "2018-02-22T04:31:26.991Z",
+      "birthtime": "2018-02-22T04:31:16.619Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/terra-cotta.jpg absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/terra-cotta.jpg absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/terra-cotta.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c85f898685975e5cd3faf2485c9f483c",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/terra-cotta.jpg",
+      "relativePath": "land-yacht-terra-cotta/terra-cotta.jpg",
+      "extension": "jpg",
+      "size": 119705,
+      "prettySize": "120 kB",
+      "modifiedTime": "2018-02-22T00:52:21.816Z",
+      "accessTime": "2018-02-22T20:04:02.163Z",
+      "changeTime": "2018-02-22T00:52:21.816Z",
+      "birthTime": "2018-02-22T00:52:21.816Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta",
+      "base": "terra-cotta.jpg",
+      "ext": ".jpg",
+      "name": "terra-cotta",
+      "relativeDirectory": "land-yacht-terra-cotta",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595196690,
+      "blocks": 240,
+      "atimeMs": 1519329842162.8596,
+      "mtimeMs": 1519260741816.4854,
+      "ctimeMs": 1519260741816.4854,
+      "birthtimeMs": 1519260741816.211,
+      "atime": "2018-02-22T20:04:02.163Z",
+      "mtime": "2018-02-22T00:52:21.816Z",
+      "ctime": "2018-02-22T00:52:21.816Z",
+      "birthtime": "2018-02-22T00:52:21.816Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/bubbler.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/bubbler.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/bubbler.jpg absPath of file",
+      "internal": {
+        "contentDigest": "3ca6c67aff129518cc3363dbddc26294",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/pax-3.jpg absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/pax-3.jpg absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/pax-3.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "183523359d693a8aa0887c6104e7c9b0",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/pax-3.jpg",
+      "relativePath": "pax-3/pax-3.jpg",
+      "extension": "jpg",
+      "size": 87309,
+      "prettySize": "87.3 kB",
+      "modifiedTime": "2018-02-22T03:20:13.728Z",
+      "accessTime": "2018-02-22T20:04:02.163Z",
+      "changeTime": "2018-02-22T03:20:13.728Z",
+      "birthTime": "2018-02-22T03:20:13.728Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3",
+      "base": "pax-3.jpg",
+      "ext": ".jpg",
+      "name": "pax-3",
+      "relativeDirectory": "pax-3",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595258845,
+      "blocks": 176,
+      "atimeMs": 1519329842162.9553,
+      "mtimeMs": 1519269613727.7708,
+      "ctimeMs": 1519269613727.7708,
+      "birthtimeMs": 1519269613727.6375,
+      "atime": "2018-02-22T20:04:02.163Z",
+      "mtime": "2018-02-22T03:20:13.728Z",
+      "ctime": "2018-02-22T03:20:13.728Z",
+      "birthtime": "2018-02-22T03:20:13.728Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/water-pipe.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/water-pipe.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/water-pipe.jpg absPath of file",
+      "internal": {
+        "contentDigest": "c15d2ff01ce2b1418b5af9f81ee24dac",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/terra-cotta.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/terra-cotta.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/terra-cotta.jpg absPath of file",
+      "internal": {
+        "contentDigest": "c85f898685975e5cd3faf2485c9f483c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/stundenglass.jpg absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/stundenglass.jpg absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/stundenglass.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0c5a5524de325222bc622d6e3765a316",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/stundenglass.jpg",
+      "relativePath": "stundenglass/stundenglass.jpg",
+      "extension": "jpg",
+      "size": 166500,
+      "prettySize": "167 kB",
+      "modifiedTime": "2018-02-22T03:16:22.017Z",
+      "accessTime": "2018-02-22T20:04:02.163Z",
+      "changeTime": "2018-02-22T03:16:22.017Z",
+      "birthTime": "2018-02-22T03:16:22.017Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass",
+      "base": "stundenglass.jpg",
+      "ext": ".jpg",
+      "name": "stundenglass",
+      "relativeDirectory": "stundenglass",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595256360,
+      "blocks": 328,
+      "atimeMs": 1519329842163.0713,
+      "mtimeMs": 1519269382017.4253,
+      "ctimeMs": 1519269382017.4253,
+      "birthtimeMs": 1519269382017.213,
+      "atime": "2018-02-22T20:04:02.163Z",
+      "mtime": "2018-02-22T03:16:22.017Z",
+      "ctime": "2018-02-22T03:16:22.017Z",
+      "birthtime": "2018-02-22T03:16:22.017Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/pax-3.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/pax-3.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/pax-3.jpg absPath of file",
+      "internal": {
+        "contentDigest": "183523359d693a8aa0887c6104e7c9b0",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/stundenglass.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/stundenglass.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/stundenglass.jpg absPath of file",
+      "internal": {
+        "contentDigest": "0c5a5524de325222bc622d6e3765a316",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Bubbler\nby: Marley Natural\nprice: $162\ntheme: near-black\ndate: \"2015-05-06T23:46:37.121Z\"\nimage: \"./bubbler.jpg\"\n---\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"? [Link](http://en.wikipedia.org/wiki/Salted_duck_egg)",
+        "contentDigest": "4de3d203ac4fd06928d7872e1cdfff1d",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Bubbler",
+        "by": "Marley Natural",
+        "price": "$162",
+        "theme": "near-black",
+        "date": "2015-05-06T23:46:37.121Z",
+        "image": "./bubbler.jpg",
+        "_PARENT": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/index.md absPath of file",
+        "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/index.md",
+      "fields": {
+        "slug": "/bubbler/"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Land Yacht Terra Cotta\nby: Summerland\nprice: $270\ntheme: near-black\ndate: \"2015-05-01T22:12:03.284Z\"\nimage: \"./terra-cotta.jpg\"\n---\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"? [Link](http://en.wikipedia.org/wiki/Salted_duck_egg)",
+        "contentDigest": "a59b213cb7a38d6bd15e1c9ca3fe0ef6",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Land Yacht Terra Cotta",
+        "by": "Summerland",
+        "price": "$270",
+        "theme": "near-black",
+        "date": "2015-05-01T22:12:03.284Z",
+        "image": "./terra-cotta.jpg",
+        "_PARENT": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/index.md absPath of file",
+        "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/index.md",
+      "fields": {
+        "slug": "/land-yacht-terra-cotta/"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Corona\nby: Leira\nprice: $420\ntheme: near-black\ndate: \"2015-05-28T22:41:32.169Z\"\nimage: \"./corona.jpg\"\n---\n\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\nDuden flows by their place and supplies it with the necessary regelialia.",
+        "contentDigest": "d12f14b723065b812c16a900fd5cc8be",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Corona",
+        "by": "Leira",
+        "price": "$420",
+        "theme": "near-black",
+        "date": "2015-05-28T22:41:32.169Z",
+        "image": "./corona.jpg",
+        "_PARENT": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/index.md absPath of file",
+        "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/index.md",
+      "fields": {
+        "slug": "/corona/"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: PAX 3\nby: PAX\nprice: $260\ntheme: near-black\ndate: \"2015-05-06T23:46:37.121Z\"\nimage: \"./pax-3.jpg\"\n---\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"? [Link](http://en.wikipedia.org/wiki/Salted_duck_egg)\n",
+        "contentDigest": "4d5fc88ba201d890272c7607a6b3d914",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "PAX 3",
+        "by": "PAX",
+        "price": "$260",
+        "theme": "near-black",
+        "date": "2015-05-06T23:46:37.121Z",
+        "image": "./pax-3.jpg",
+        "_PARENT": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/index.md absPath of file",
+        "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/index.md",
+      "fields": {
+        "slug": "/pax-3/"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Stundenglass\nby: Stundenglass\nprice: $500\ntheme: near-black\ndate: \"2015-05-28T22:40:32.169Z\"\nimage: \"./stundenglass.jpg\"\n---\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"? [Link](http://en.wikipedia.org/wiki/Salted_duck_egg)",
+        "contentDigest": "9a83984d26a12ebe8bcf7bafa65b5ba1",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Stundenglass",
+        "by": "Stundenglass",
+        "price": "$500",
+        "theme": "near-black",
+        "date": "2015-05-28T22:40:32.169Z",
+        "image": "./stundenglass.jpg",
+        "_PARENT": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/index.md absPath of file",
+        "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/index.md",
+      "fields": {
+        "slug": "/stundenglass/"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Water Pipe\nby: Marley Natural\nprice: $178\ntheme: near-black\ndate: \"2015-05-01T22:12:03.284Z\"\nimage: \"./water-pipe.jpg\"\n---\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"? [Link](http://en.wikipedia.org/wiki/Salted_duck_egg)\n",
+        "contentDigest": "3c4df20e0cfa6feced525a22d6c25419",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Water Pipe",
+        "by": "Marley Natural",
+        "price": "$178",
+        "theme": "near-black",
+        "date": "2015-05-01T22:12:03.284Z",
+        "image": "./water-pipe.jpg",
+        "_PARENT": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/index.md absPath of file",
+        "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/index.md",
+      "fields": {
+        "slug": "/water-pipe/"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/corona.jpg absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/corona.jpg absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/corona.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ed62813944f9d083876fb37d1f702d63",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/corona.jpg",
+      "relativePath": "corona/corona.jpg",
+      "extension": "jpg",
+      "size": 45562,
+      "prettySize": "45.6 kB",
+      "modifiedTime": "2018-02-24T02:21:34.889Z",
+      "accessTime": "2018-02-24T02:21:34.889Z",
+      "changeTime": "2018-02-24T02:21:40.580Z",
+      "birthTime": "2018-02-24T02:21:34.889Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona",
+      "base": "corona.jpg",
+      "ext": ".jpg",
+      "name": "corona",
+      "relativeDirectory": "corona",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596007368,
+      "blocks": 96,
+      "atimeMs": 1519438894888.8306,
+      "mtimeMs": 1519438894889.1863,
+      "ctimeMs": 1519438900579.645,
+      "birthtimeMs": 1519438894888.8306,
+      "atime": "2018-02-24T02:21:34.889Z",
+      "mtime": "2018-02-24T02:21:34.889Z",
+      "ctime": "2018-02-24T02:21:40.580Z",
+      "birthtime": "2018-02-24T02:21:34.889Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/corona.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/corona.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/corona.jpg absPath of file",
+      "internal": {
+        "contentDigest": "ed62813944f9d083876fb37d1f702d63",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b8b7c14bd7bb6c2270e20d89ca06a537",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon",
+      "relativePath": "high-noon",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-02-23T21:38:33.981Z",
+      "accessTime": "2018-03-09T23:04:16.601Z",
+      "changeTime": "2018-02-23T21:38:33.981Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+      "base": "high-noon",
+      "ext": "",
+      "name": "high-noon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595850491,
+      "blocks": 0,
+      "atimeMs": 1520636656600.916,
+      "mtimeMs": 1519421913980.8604,
+      "ctimeMs": 1519421913980.8604,
+      "birthtimeMs": 1519238825555.503,
+      "atime": "2018-03-09T23:04:16.601Z",
+      "mtime": "2018-02-23T21:38:33.981Z",
+      "ctime": "2018-02-23T21:38:33.981Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/index.md absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/index.md absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "64131423b59181ca59587b72e694f7d0",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/index.md",
+      "relativePath": "high-noon/index.md",
+      "extension": "md",
+      "size": 364,
+      "prettySize": "364 B",
+      "modifiedTime": "2018-03-02T23:29:28.856Z",
+      "accessTime": "2018-03-02T23:29:28.856Z",
+      "changeTime": "2018-03-02T23:29:28.856Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "high-noon",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595850498,
+      "blocks": 8,
+      "atimeMs": 1520033368856.0227,
+      "mtimeMs": 1520033368856.3103,
+      "ctimeMs": 1520033368856.3103,
+      "birthtimeMs": 1519238825555.55,
+      "atime": "2018-03-02T23:29:28.856Z",
+      "mtime": "2018-03-02T23:29:28.856Z",
+      "ctime": "2018-03-02T23:29:28.856Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/high-noon.jpg absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/high-noon.jpg absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/high-noon.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "564e16693af0fda220eb6f6ff8a36744",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/high-noon.jpg",
+      "relativePath": "high-noon/high-noon.jpg",
+      "extension": "jpg",
+      "size": 287084,
+      "prettySize": "287 kB",
+      "modifiedTime": "2018-02-23T21:36:56.623Z",
+      "accessTime": "2018-02-23T21:38:28.928Z",
+      "changeTime": "2018-02-23T21:37:07.119Z",
+      "birthTime": "2018-02-23T21:36:56.621Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon",
+      "base": "high-noon.jpg",
+      "ext": ".jpg",
+      "name": "high-noon",
+      "relativeDirectory": "high-noon",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595852544,
+      "blocks": 568,
+      "atimeMs": 1519421908927.5237,
+      "mtimeMs": 1519421816622.9258,
+      "ctimeMs": 1519421827119.4417,
+      "birthtimeMs": 1519421816621.3452,
+      "atime": "2018-02-23T21:38:28.928Z",
+      "mtime": "2018-02-23T21:36:56.623Z",
+      "ctime": "2018-02-23T21:37:07.119Z",
+      "birthtime": "2018-02-23T21:36:56.621Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: High Noon\nby: High Noon\nprice: $56\ntheme: near-black\ndate: \"2015-05-06T23:46:37.121Z\"\nimage: \"./high-noon.jpg\"\n---\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"? [Link](http://en.wikipedia.org/wiki/Salted_duck_egg)",
+        "contentDigest": "8b6e6f16d36233215cf49a8a617bbe83",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "High Noon",
+        "by": "High Noon",
+        "price": "$56",
+        "theme": "near-black",
+        "date": "2015-05-06T23:46:37.121Z",
+        "image": "./high-noon.jpg",
+        "_PARENT": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/index.md absPath of file",
+        "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/index.md",
+      "fields": {
+        "slug": "/high-noon/"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/high-noon.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/high-noon.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/high-noon.jpg absPath of file",
+      "internal": {
+        "contentDigest": "564e16693af0fda220eb6f6ff8a36744",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9e881f15497a3db9d95a99f9517b5593",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong",
+      "relativePath": "voong",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-02-23T21:42:58.318Z",
+      "accessTime": "2018-03-09T23:04:16.601Z",
+      "changeTime": "2018-02-23T21:42:58.318Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+      "base": "voong",
+      "ext": "",
+      "name": "voong",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595855718,
+      "blocks": 0,
+      "atimeMs": 1520636656601.0054,
+      "mtimeMs": 1519422178317.5483,
+      "ctimeMs": 1519422178317.5483,
+      "birthtimeMs": 1519238825555.503,
+      "atime": "2018-03-09T23:04:16.601Z",
+      "mtime": "2018-02-23T21:42:58.318Z",
+      "ctime": "2018-02-23T21:42:58.318Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/index.md absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/index.md absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "baee494688e41f7df54cb442330f0c93",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/index.md",
+      "relativePath": "voong/index.md",
+      "extension": "md",
+      "size": 354,
+      "prettySize": "354 B",
+      "modifiedTime": "2018-03-02T23:29:07.139Z",
+      "accessTime": "2018-03-02T23:29:07.138Z",
+      "changeTime": "2018-03-02T23:29:07.139Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "voong",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595855720,
+      "blocks": 8,
+      "atimeMs": 1520033347137.9614,
+      "mtimeMs": 1520033347139.2102,
+      "ctimeMs": 1520033347139.2102,
+      "birthtimeMs": 1519238825555.55,
+      "atime": "2018-03-02T23:29:07.138Z",
+      "mtime": "2018-03-02T23:29:07.139Z",
+      "ctime": "2018-03-02T23:29:07.139Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Voong\nby: Castor\nprice: $265\ntheme: near-black\ndate: \"2015-05-06T23:46:37.121Z\"\nimage: \"./voong.jpg\"\n---\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"? [Link](http://en.wikipedia.org/wiki/Salted_duck_egg)",
+        "contentDigest": "05fc5d3798dba69bd52c481b34ded024",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Voong",
+        "by": "Castor",
+        "price": "$265",
+        "theme": "near-black",
+        "date": "2015-05-06T23:46:37.121Z",
+        "image": "./voong.jpg",
+        "_PARENT": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/index.md absPath of file",
+        "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/index.md",
+      "fields": {
+        "slug": "/voong/"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/voong.jpg absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/voong.jpg absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/voong.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "37432f2797e6a5438eaa471e9fb3db40",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/voong.jpg",
+      "relativePath": "voong/voong.jpg",
+      "extension": "jpg",
+      "size": 12476118,
+      "prettySize": "12.5 MB",
+      "modifiedTime": "2018-02-23T21:42:09.582Z",
+      "accessTime": "2018-02-23T21:42:09.446Z",
+      "changeTime": "2018-02-23T21:42:48.175Z",
+      "birthTime": "2018-02-23T21:42:09.446Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong",
+      "base": "voong.jpg",
+      "ext": ".jpg",
+      "name": "voong",
+      "relativeDirectory": "voong",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595855435,
+      "blocks": 24368,
+      "atimeMs": 1519422129446.4192,
+      "mtimeMs": 1519422129582.1826,
+      "ctimeMs": 1519422168174.5603,
+      "birthtimeMs": 1519422129446.4192,
+      "atime": "2018-02-23T21:42:09.446Z",
+      "mtime": "2018-02-23T21:42:09.582Z",
+      "ctime": "2018-02-23T21:42:48.175Z",
+      "birthtime": "2018-02-23T21:42:09.446Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/voong.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/voong.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/voong.jpg absPath of file",
+      "internal": {
+        "contentDigest": "37432f2797e6a5438eaa471e9fb3db40",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2fc2eea4a344c3d94ffce8fa9f8ebd5a",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey",
+      "relativePath": "journey",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-02-23T21:48:47.370Z",
+      "accessTime": "2018-03-09T23:04:16.601Z",
+      "changeTime": "2018-02-23T21:48:47.370Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+      "base": "journey",
+      "ext": "",
+      "name": "journey",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595857122,
+      "blocks": 0,
+      "atimeMs": 1520636656600.9285,
+      "mtimeMs": 1519422527369.9644,
+      "ctimeMs": 1519422527369.9644,
+      "birthtimeMs": 1519238825555.503,
+      "atime": "2018-03-09T23:04:16.601Z",
+      "mtime": "2018-02-23T21:48:47.370Z",
+      "ctime": "2018-02-23T21:48:47.370Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/index.md absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/index.md absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f8d312e8c97d6011dbebd312f4dd735c",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/index.md",
+      "relativePath": "journey/index.md",
+      "extension": "md",
+      "size": 369,
+      "prettySize": "369 B",
+      "modifiedTime": "2018-03-02T23:29:22.392Z",
+      "accessTime": "2018-03-02T23:29:22.392Z",
+      "changeTime": "2018-03-02T23:29:22.392Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "journey",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595857123,
+      "blocks": 8,
+      "atimeMs": 1520033362391.6243,
+      "mtimeMs": 1520033362391.8691,
+      "ctimeMs": 1520033362391.8691,
+      "birthtimeMs": 1519238825555.55,
+      "atime": "2018-03-02T23:29:22.392Z",
+      "mtime": "2018-03-02T23:29:22.392Z",
+      "ctime": "2018-03-02T23:29:22.392Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/journey.jpg absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/journey.jpg absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/journey.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8b1b4f16e86632974a2ba368cd4d6a22",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/journey.jpg",
+      "relativePath": "journey/journey.jpg",
+      "extension": "jpg",
+      "size": 41929,
+      "prettySize": "41.9 kB",
+      "modifiedTime": "2018-02-23T21:44:55.519Z",
+      "accessTime": "2018-02-23T21:45:08.012Z",
+      "changeTime": "2018-02-23T21:45:06.502Z",
+      "birthTime": "2018-02-23T21:44:55.519Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey",
+      "base": "journey.jpg",
+      "ext": ".jpg",
+      "name": "journey",
+      "relativeDirectory": "journey",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595857033,
+      "blocks": 88,
+      "atimeMs": 1519422308012.4836,
+      "mtimeMs": 1519422295519.0942,
+      "ctimeMs": 1519422306502.0168,
+      "birthtimeMs": 1519422295518.6692,
+      "atime": "2018-02-23T21:45:08.012Z",
+      "mtime": "2018-02-23T21:44:55.519Z",
+      "ctime": "2018-02-23T21:45:06.502Z",
+      "birthtime": "2018-02-23T21:44:55.519Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/journey.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/journey.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/journey.jpg absPath of file",
+      "internal": {
+        "contentDigest": "8b1b4f16e86632974a2ba368cd4d6a22",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Journey3\nby: The Journey Pipe\nprice: $68\ntheme: near-black\ndate: \"2015-05-06T23:46:37.121Z\"\nimage: \"./journey.jpg\"\n---\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"? [Link](http://en.wikipedia.org/wiki/Salted_duck_egg)\n",
+        "contentDigest": "28f4fa9d77f2885a8c481ebb9fa535c3",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Journey3",
+        "by": "The Journey Pipe",
+        "price": "$68",
+        "theme": "near-black",
+        "date": "2015-05-06T23:46:37.121Z",
+        "image": "./journey.jpg",
+        "_PARENT": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/index.md absPath of file",
+        "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/index.md",
+      "fields": {
+        "slug": "/journey/"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4d489a3bf52b4aed249239d0f123700f",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda",
+      "relativePath": "inda",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-02-23T21:49:04.027Z",
+      "accessTime": "2018-03-09T23:04:16.601Z",
+      "changeTime": "2018-02-23T21:49:04.027Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+      "base": "inda",
+      "ext": "",
+      "name": "inda",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595859170,
+      "blocks": 0,
+      "atimeMs": 1520636656600.9417,
+      "mtimeMs": 1519422544027.0605,
+      "ctimeMs": 1519422544027.0605,
+      "birthtimeMs": 1519238825555.503,
+      "atime": "2018-03-09T23:04:16.601Z",
+      "mtime": "2018-02-23T21:49:04.027Z",
+      "ctime": "2018-02-23T21:49:04.027Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/index.md absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/index.md absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5c2cf254cf00cd9aa230061e40334071",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/index.md",
+      "relativePath": "inda/index.md",
+      "extension": "md",
+      "size": 359,
+      "prettySize": "359 B",
+      "modifiedTime": "2018-03-02T23:29:25.017Z",
+      "accessTime": "2018-03-02T23:29:25.009Z",
+      "changeTime": "2018-03-02T23:29:25.017Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "inda",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595859172,
+      "blocks": 8,
+      "atimeMs": 1520033365008.9922,
+      "mtimeMs": 1520033365017.39,
+      "ctimeMs": 1520033365017.39,
+      "birthtimeMs": 1519238825555.55,
+      "atime": "2018-03-02T23:29:25.009Z",
+      "mtime": "2018-03-02T23:29:25.017Z",
+      "ctime": "2018-03-02T23:29:25.017Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/inda.jpg absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/inda.jpg absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/inda.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c22e3a1ce4d0206e76c30ef057604fc2",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/inda.jpg",
+      "relativePath": "inda/inda.jpg",
+      "extension": "jpg",
+      "size": 154770,
+      "prettySize": "155 kB",
+      "modifiedTime": "2018-02-23T21:48:12.301Z",
+      "accessTime": "2018-02-23T21:48:35.604Z",
+      "changeTime": "2018-02-23T21:48:34.021Z",
+      "birthTime": "2018-02-23T21:48:12.300Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda",
+      "base": "inda.jpg",
+      "ext": ".jpg",
+      "name": "inda",
+      "relativeDirectory": "inda",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595858986,
+      "blocks": 304,
+      "atimeMs": 1519422515604.1125,
+      "mtimeMs": 1519422492301.3896,
+      "ctimeMs": 1519422514021.2402,
+      "birthtimeMs": 1519422492300.4849,
+      "atime": "2018-02-23T21:48:35.604Z",
+      "mtime": "2018-02-23T21:48:12.301Z",
+      "ctime": "2018-02-23T21:48:34.021Z",
+      "birthtime": "2018-02-23T21:48:12.300Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/inda.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/inda.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/inda.jpg absPath of file",
+      "internal": {
+        "contentDigest": "c22e3a1ce4d0206e76c30ef057604fc2",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: The Inda Pipe\nby: Inda\nprice: $79\ntheme: near-black\ndate: \"2015-05-06T23:46:37.121Z\"\nimage: \"./inda.jpg\"\n---\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"? [Link](http://en.wikipedia.org/wiki/Salted_duck_egg)\n",
+        "contentDigest": "1046695b9f87660226ad2cdadfb0d89f",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "The Inda Pipe",
+        "by": "Inda",
+        "price": "$79",
+        "theme": "near-black",
+        "date": "2015-05-06T23:46:37.121Z",
+        "image": "./inda.jpg",
+        "_PARENT": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/index.md absPath of file",
+        "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/index.md",
+      "fields": {
+        "slug": "/inda/"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dbc0231bb47f33de399c87c9a1d5d951",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper",
+      "relativePath": "dipper",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-03-02T23:25:43.768Z",
+      "accessTime": "2018-03-09T23:04:16.601Z",
+      "changeTime": "2018-03-02T23:25:43.768Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+      "base": "dipper",
+      "ext": "",
+      "name": "dipper",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595861295,
+      "blocks": 0,
+      "atimeMs": 1520636656600.8772,
+      "mtimeMs": 1520033143768.0151,
+      "ctimeMs": 1520033143768.0151,
+      "birthtimeMs": 1519238825555.503,
+      "atime": "2018-03-09T23:04:16.601Z",
+      "mtime": "2018-03-02T23:25:43.768Z",
+      "ctime": "2018-03-02T23:25:43.768Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/dipper.jpg absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/dipper.jpg absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/dipper.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "deccadda5b0e68586c78e2cfe4c9170a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/dipper.jpg",
+      "relativePath": "dipper/dipper.jpg",
+      "extension": "jpg",
+      "size": 22104,
+      "prettySize": "22.1 kB",
+      "modifiedTime": "2018-02-23T21:52:02.158Z",
+      "accessTime": "2018-02-23T21:52:23.596Z",
+      "changeTime": "2018-02-23T21:52:22.101Z",
+      "birthTime": "2018-02-23T21:52:02.158Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper",
+      "base": "dipper.jpg",
+      "ext": ".jpg",
+      "name": "dipper",
+      "relativeDirectory": "dipper",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595861143,
+      "blocks": 48,
+      "atimeMs": 1519422743596.4346,
+      "mtimeMs": 1519422722158.3323,
+      "ctimeMs": 1519422742101.1807,
+      "birthtimeMs": 1519422722158.0808,
+      "atime": "2018-02-23T21:52:23.596Z",
+      "mtime": "2018-02-23T21:52:02.158Z",
+      "ctime": "2018-02-23T21:52:22.101Z",
+      "birthtime": "2018-02-23T21:52:02.158Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/index.md absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/index.md absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6c75ec0dfca30042d0fa1f60cea4e367",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/index.md",
+      "relativePath": "dipper/index.md",
+      "extension": "md",
+      "size": 375,
+      "prettySize": "375 B",
+      "modifiedTime": "2018-03-02T23:29:35.050Z",
+      "accessTime": "2018-03-02T23:29:35.050Z",
+      "changeTime": "2018-03-02T23:29:35.050Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "dipper",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595861297,
+      "blocks": 8,
+      "atimeMs": 1520033375049.741,
+      "mtimeMs": 1520033375050.1343,
+      "ctimeMs": 1520033375050.1343,
+      "birthtimeMs": 1519238825555.55,
+      "atime": "2018-03-02T23:29:35.050Z",
+      "mtime": "2018-03-02T23:29:35.050Z",
+      "ctime": "2018-03-02T23:29:35.050Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/dipper.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/dipper.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/dipper.jpg absPath of file",
+      "internal": {
+        "contentDigest": "deccadda5b0e68586c78e2cfe4c9170a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Dipper Vaporizer\nby: Dipstick Vapes\nprice: $150\ntheme: near-black\ndate: \"2015-05-06T23:46:37.121Z\"\nimage: \"./dipper.jpg\"\n---\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"? [Link](http://en.wikipedia.org/wiki/Salted_duck_egg)\n",
+        "contentDigest": "21c0980d27263f3be6efffeacf3c4ea3",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Dipper Vaporizer",
+        "by": "Dipstick Vapes",
+        "price": "$150",
+        "theme": "near-black",
+        "date": "2015-05-06T23:46:37.121Z",
+        "image": "./dipper.jpg",
+        "_PARENT": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/index.md absPath of file",
+        "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/index.md",
+      "fields": {
+        "slug": "/dipper/"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4f9936a2e6abf1aab7913cea627592c6",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo",
+      "relativePath": "levo",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-02-23T22:03:17.539Z",
+      "accessTime": "2018-03-09T23:04:16.601Z",
+      "changeTime": "2018-02-23T22:03:17.539Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages",
+      "base": "levo",
+      "ext": "",
+      "name": "levo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595866224,
+      "blocks": 0,
+      "atimeMs": 1520636656600.967,
+      "mtimeMs": 1519423397539.355,
+      "ctimeMs": 1519423397539.355,
+      "birthtimeMs": 1519238825555.503,
+      "atime": "2018-03-09T23:04:16.601Z",
+      "mtime": "2018-02-23T22:03:17.539Z",
+      "ctime": "2018-02-23T22:03:17.539Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/index.md absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/index.md absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7bf247e15d3fe8b69628de916094099a",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/index.md",
+      "relativePath": "levo/index.md",
+      "extension": "md",
+      "size": 362,
+      "prettySize": "362 B",
+      "modifiedTime": "2018-03-02T23:29:15.954Z",
+      "accessTime": "2018-03-02T23:29:15.953Z",
+      "changeTime": "2018-03-02T23:29:15.954Z",
+      "birthTime": "2018-02-21T18:47:05.556Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "levo",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595866230,
+      "blocks": 8,
+      "atimeMs": 1520033355953.3618,
+      "mtimeMs": 1520033355953.6367,
+      "ctimeMs": 1520033355953.6367,
+      "birthtimeMs": 1519238825555.55,
+      "atime": "2018-03-02T23:29:15.953Z",
+      "mtime": "2018-03-02T23:29:15.954Z",
+      "ctime": "2018-03-02T23:29:15.954Z",
+      "birthtime": "2018-02-21T18:47:05.556Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Levo Oil Infuser\nby: Levo\nprice: $200\ntheme: near-black\ndate: \"2015-05-06T23:46:37.121Z\"\nimage: \"./levo.jpg\"\n---\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"? [Link](http://en.wikipedia.org/wiki/Salted_duck_egg)",
+        "contentDigest": "faadfbade7a59e7245640b91bcfd7042",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Levo Oil Infuser",
+        "by": "Levo",
+        "price": "$200",
+        "theme": "near-black",
+        "date": "2015-05-06T23:46:37.121Z",
+        "image": "./levo.jpg",
+        "_PARENT": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/index.md absPath of file",
+        "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/index.md",
+      "fields": {
+        "slug": "/levo/"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/levo.jpg absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/levo.jpg absPath of file",
+      "children": [
+        "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/levo.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "67643b366ec64ff2135dba5f93eb14f9",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/levo.jpg",
+      "relativePath": "levo/levo.jpg",
+      "extension": "jpg",
+      "size": 905706,
+      "prettySize": "906 kB",
+      "modifiedTime": "2018-02-23T22:03:08.130Z",
+      "accessTime": "2018-02-23T22:03:08.130Z",
+      "changeTime": "2018-02-23T22:03:08.130Z",
+      "birthTime": "2018-02-23T22:03:08.130Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo",
+      "base": "levo.jpg",
+      "ext": ".jpg",
+      "name": "levo",
+      "relativeDirectory": "levo",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595867424,
+      "blocks": 1776,
+      "atimeMs": 1519423388129.6758,
+      "mtimeMs": 1519423388130.0334,
+      "ctimeMs": 1519423388130.0334,
+      "birthtimeMs": 1519423388129.6758,
+      "atime": "2018-02-23T22:03:08.130Z",
+      "mtime": "2018-02-23T22:03:08.130Z",
+      "ctime": "2018-02-23T22:03:08.130Z",
+      "birthtime": "2018-02-23T22:03:08.130Z"
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/levo.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/levo.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/levo.jpg absPath of file",
+      "internal": {
+        "contentDigest": "67643b366ec64ff2135dba5f93eb14f9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/.DS_Store absPath of file": {
+      "id": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "194577a7e20bdcc7afbb718f502c134c",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/.DS_Store",
+      "relativePath": "levo/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-02-23T22:03:17.540Z",
+      "accessTime": "2018-02-23T22:03:17.539Z",
+      "changeTime": "2018-02-23T22:03:17.540Z",
+      "birthTime": "2018-02-23T22:03:17.539Z",
+      "root": "/",
+      "dir": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "levo",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8595867547,
+      "blocks": 16,
+      "atimeMs": 1519423397539.3389,
+      "mtimeMs": 1519423397539.8318,
+      "ctimeMs": 1519423397539.8318,
+      "birthtimeMs": 1519423397539.3389,
+      "atime": "2018-02-23T22:03:17.539Z",
+      "mtime": "2018-02-23T22:03:17.540Z",
+      "ctime": "2018-02-23T22:03:17.540Z",
+      "birthtime": "2018-02-23T22:03:17.539Z"
+    },
+    "SitePage /corona/": {
+      "layout": "index",
+      "jsonName": "corona.json",
+      "internalComponentName": "ComponentCorona",
+      "path": "/corona/",
+      "component": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/corona/",
+        "previous": {
+          "fields": {
+            "slug": "/stundenglass/"
+          },
+          "frontmatter": {
+            "title": "Stundenglass"
+          }
+        },
+        "next": false
+      },
+      "updatedAt": 1520636657075,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "id": "SitePage /corona/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "985ad7020ea0b18097893e3fa30f482a",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /stundenglass/": {
+      "layout": "index",
+      "jsonName": "stundenglass.json",
+      "internalComponentName": "ComponentStundenglass",
+      "path": "/stundenglass/",
+      "component": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/stundenglass/",
+        "previous": {
+          "fields": {
+            "slug": "/bubbler/"
+          },
+          "frontmatter": {
+            "title": "Bubbler"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/corona/"
+          },
+          "frontmatter": {
+            "title": "Corona"
+          }
+        }
+      },
+      "updatedAt": 1520636657076,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "id": "SitePage /stundenglass/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "794aeb291be2b66c8c4168f06bf62877",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /bubbler/": {
+      "layout": "index",
+      "jsonName": "bubbler.json",
+      "internalComponentName": "ComponentBubbler",
+      "path": "/bubbler/",
+      "component": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/bubbler/",
+        "previous": {
+          "fields": {
+            "slug": "/pax-3/"
+          },
+          "frontmatter": {
+            "title": "PAX 3"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/stundenglass/"
+          },
+          "frontmatter": {
+            "title": "Stundenglass"
+          }
+        }
+      },
+      "updatedAt": 1520636657077,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "id": "SitePage /bubbler/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "514ed675ec1426314e9f0e528208f055",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /pax-3/": {
+      "layout": "index",
+      "jsonName": "pax-3.json",
+      "internalComponentName": "ComponentPax3",
+      "path": "/pax-3/",
+      "component": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/pax-3/",
+        "previous": {
+          "fields": {
+            "slug": "/high-noon/"
+          },
+          "frontmatter": {
+            "title": "High Noon"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/bubbler/"
+          },
+          "frontmatter": {
+            "title": "Bubbler"
+          }
+        }
+      },
+      "updatedAt": 1520636657077,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "id": "SitePage /pax-3/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "17d85442f37dbab0d19b21c86ec4c7b3",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /high-noon/": {
+      "layout": "index",
+      "jsonName": "high-noon.json",
+      "internalComponentName": "ComponentHighNoon",
+      "path": "/high-noon/",
+      "component": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/high-noon/",
+        "previous": {
+          "fields": {
+            "slug": "/voong/"
+          },
+          "frontmatter": {
+            "title": "Voong"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/pax-3/"
+          },
+          "frontmatter": {
+            "title": "PAX 3"
+          }
+        }
+      },
+      "updatedAt": 1520636657078,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "id": "SitePage /high-noon/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d5f4fa3b09d3dd492c7c3f6d8d1e0e85",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /voong/": {
+      "layout": "index",
+      "jsonName": "voong.json",
+      "internalComponentName": "ComponentVoong",
+      "path": "/voong/",
+      "component": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/voong/",
+        "previous": {
+          "fields": {
+            "slug": "/journey/"
+          },
+          "frontmatter": {
+            "title": "Journey3"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/high-noon/"
+          },
+          "frontmatter": {
+            "title": "High Noon"
+          }
+        }
+      },
+      "updatedAt": 1520636657078,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "id": "SitePage /voong/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "674257c15f2308aa26c56d190692edeb",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /journey/": {
+      "layout": "index",
+      "jsonName": "journey.json",
+      "internalComponentName": "ComponentJourney",
+      "path": "/journey/",
+      "component": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/journey/",
+        "previous": {
+          "fields": {
+            "slug": "/inda/"
+          },
+          "frontmatter": {
+            "title": "The Inda Pipe"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/voong/"
+          },
+          "frontmatter": {
+            "title": "Voong"
+          }
+        }
+      },
+      "updatedAt": 1520636657078,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "id": "SitePage /journey/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bb5ae71e78ea5b401a0e9a1d8783bcfc",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /inda/": {
+      "layout": "index",
+      "jsonName": "inda.json",
+      "internalComponentName": "ComponentInda",
+      "path": "/inda/",
+      "component": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/inda/",
+        "previous": {
+          "fields": {
+            "slug": "/dipper/"
+          },
+          "frontmatter": {
+            "title": "Dipper Vaporizer"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/journey/"
+          },
+          "frontmatter": {
+            "title": "Journey3"
+          }
+        }
+      },
+      "updatedAt": 1520636657079,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "id": "SitePage /inda/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "353fece410d43809ccc319a490ef4a25",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /dipper/": {
+      "layout": "index",
+      "jsonName": "dipper.json",
+      "internalComponentName": "ComponentDipper",
+      "path": "/dipper/",
+      "component": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/dipper/",
+        "previous": {
+          "fields": {
+            "slug": "/levo/"
+          },
+          "frontmatter": {
+            "title": "Levo Oil Infuser"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/inda/"
+          },
+          "frontmatter": {
+            "title": "The Inda Pipe"
+          }
+        }
+      },
+      "updatedAt": 1520636657079,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "id": "SitePage /dipper/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2a99ba387e046e99b892a7365a495938",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /levo/": {
+      "layout": "index",
+      "jsonName": "levo.json",
+      "internalComponentName": "ComponentLevo",
+      "path": "/levo/",
+      "component": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/levo/",
+        "previous": {
+          "fields": {
+            "slug": "/land-yacht-terra-cotta/"
+          },
+          "frontmatter": {
+            "title": "Land Yacht Terra Cotta"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/dipper/"
+          },
+          "frontmatter": {
+            "title": "Dipper Vaporizer"
+          }
+        }
+      },
+      "updatedAt": 1520636657080,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "id": "SitePage /levo/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cf3969031c954c7fa17c75781c5664b0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /land-yacht-terra-cotta/": {
+      "layout": "index",
+      "jsonName": "land-yacht-terra-cotta.json",
+      "internalComponentName": "ComponentLandYachtTerraCotta",
+      "path": "/land-yacht-terra-cotta/",
+      "component": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/land-yacht-terra-cotta/",
+        "previous": {
+          "fields": {
+            "slug": "/water-pipe/"
+          },
+          "frontmatter": {
+            "title": "Water Pipe"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/levo/"
+          },
+          "frontmatter": {
+            "title": "Levo Oil Infuser"
+          }
+        }
+      },
+      "updatedAt": 1520636657080,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "id": "SitePage /land-yacht-terra-cotta/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bd9f79307fb86d2d823c7ba04bd2a8c0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /water-pipe/": {
+      "layout": "index",
+      "jsonName": "water-pipe.json",
+      "internalComponentName": "ComponentWaterPipe",
+      "path": "/water-pipe/",
+      "component": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/water-pipe/",
+        "previous": false,
+        "next": {
+          "fields": {
+            "slug": "/land-yacht-terra-cotta/"
+          },
+          "frontmatter": {
+            "title": "Land Yacht Terra Cotta"
+          }
+        }
+      },
+      "updatedAt": 1520636657081,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/templates/blog-post.js",
+      "id": "SitePage /water-pipe/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "46f335a1c09b988378c33a5769130dc3",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "updatedAt": 1520636657108,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d8c2aa5cc88f0ca31c3d637739ffe264",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "7e217876525a388cb4c79c8ea4fb0099"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/",
+        "/high-noon copy/",
+        "/voong copy/",
+        "/journey copy/",
+        "/inda copy/",
+        "/corona copy/",
+        "/bubbler copy/",
+        "/dipper copy/",
+        "/bubbler copy 2/",
+        "/corona copy 2/",
+        "/dipper copy 2/",
+        "/inda copy 2/",
+        "/water-pipe copy/",
+        "/journey copy 2/",
+        "/inda copy 3/",
+        "/bubbler/",
+        "/stundenglass/",
+        "/corona/",
+        "/pax-3/",
+        "/voong/",
+        "/high-noon/",
+        "/journey/",
+        "/inda/",
+        "/levo/",
+        "/dipper/",
+        "/land-yacht-terra-cotta/",
+        "/water-pipe/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/index.md absPath of file >>> MarkdownRemark": [
+        "/bubbler/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/index.md absPath of file >>> MarkdownRemark": [
+        "/stundenglass/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/index.md absPath of file >>> MarkdownRemark": [
+        "/corona/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/index.md absPath of file >>> MarkdownRemark": [
+        "/pax-3/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/index.md absPath of file >>> MarkdownRemark": [
+        "/land-yacht-terra-cotta/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/index.md absPath of file >>> MarkdownRemark": [
+        "/water-pipe/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/corona.jpg absPath of file": [
+        "/",
+        "/corona/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/corona/corona.jpg absPath of file >> ImageSharp": [
+        "/",
+        "/corona/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/stundenglass.jpg absPath of file": [
+        "/",
+        "/stundenglass/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/stundenglass/stundenglass.jpg absPath of file >> ImageSharp": [
+        "/",
+        "/stundenglass/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/bubbler.jpg absPath of file": [
+        "/",
+        "/bubbler/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/bubbler/bubbler.jpg absPath of file >> ImageSharp": [
+        "/",
+        "/bubbler/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/pax-3.jpg absPath of file": [
+        "/",
+        "/pax-3/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/pax-3/pax-3.jpg absPath of file >> ImageSharp": [
+        "/",
+        "/pax-3/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/terra-cotta.jpg absPath of file": [
+        "/",
+        "/land-yacht-terra-cotta/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/land-yacht-terra-cotta/terra-cotta.jpg absPath of file >> ImageSharp": [
+        "/",
+        "/land-yacht-terra-cotta/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/water-pipe.jpg absPath of file": [
+        "/",
+        "/water-pipe/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/water-pipe/water-pipe.jpg absPath of file >> ImageSharp": [
+        "/",
+        "/water-pipe/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/high-noon.jpg absPath of file": [
+        "/",
+        "/high-noon/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/high-noon.jpg absPath of file >> ImageSharp": [
+        "/",
+        "/high-noon/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/high-noon/index.md absPath of file >>> MarkdownRemark": [
+        "/high-noon/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/voong.jpg absPath of file": [
+        "/",
+        "/voong/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/voong.jpg absPath of file >> ImageSharp": [
+        "/",
+        "/voong/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/journey.jpg absPath of file": [
+        "/",
+        "/journey/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/journey.jpg absPath of file >> ImageSharp": [
+        "/",
+        "/journey/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/inda.jpg absPath of file": [
+        "/",
+        "/inda/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/inda.jpg absPath of file >> ImageSharp": [
+        "/",
+        "/inda/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/dipper.jpg absPath of file": [
+        "/",
+        "/dipper/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/dipper.jpg absPath of file >> ImageSharp": [
+        "/",
+        "/dipper/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/voong/index.md absPath of file >>> MarkdownRemark": [
+        "/voong/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/journey/index.md absPath of file >>> MarkdownRemark": [
+        "/journey/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/inda/index.md absPath of file >>> MarkdownRemark": [
+        "/inda/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/dipper/index.md absPath of file >>> MarkdownRemark": [
+        "/dipper/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/levo.jpg absPath of file": [
+        "/",
+        "/levo/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/levo.jpg absPath of file >> ImageSharp": [
+        "/",
+        "/levo/"
+      ],
+      "/Users/maximsiebert/Documents/Projects/weed-stuff/src/pages/levo/index.md absPath of file >>> MarkdownRemark": [
+        "/levo/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/"
+      ],
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}
